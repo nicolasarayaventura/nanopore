@@ -1,0 +1,114 @@
+[M::main::6.412*1.00] loaded/built the index for 25 target sequence(s)
+[M::mm_mapopt_update::8.065*1.00] mid_occ = 704
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 25
+[M::mm_idx_stat::8.978*1.00] distinct minimizers: 100128857 (38.78% are singletons); average occurrences: 5.526; average spacing: 5.581; total length: 3088286401
+[M::worker_pipeline::332.468*2.92] mapped 119029 sequences
+[M::worker_pipeline::652.655*2.97] mapped 112454 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '9422fd1a-f942-4d80-8305-50eedc1ab146'. Continue anyway.[0m
+[M::worker_pipeline::993.757*2.98] mapped 102654 sequences
+[M::worker_pipeline::1021.479*2.95] mapped 10739 sequences
+[M::worker_pipeline::1381.565*2.96] mapped 83863 sequences
+[M::worker_pipeline::1720.568*2.97] mapped 76747 sequences
+[M::worker_pipeline::2030.887*2.97] mapped 85395 sequences
+[M::worker_pipeline::2233.355*2.96] mapped 54176 sequences
+[M::worker_pipeline::2633.626*2.96] mapped 74363 sequences
+[M::worker_pipeline::2944.086*2.97] mapped 87394 sequences
+[M::worker_pipeline::3277.672*2.97] mapped 78778 sequences
+[M::worker_pipeline::3421.945*2.96] mapped 36610 sequences
+[M::worker_pipeline::3767.295*2.97] mapped 86408 sequences
+[M::worker_pipeline::4074.745*2.97] mapped 84944 sequences
+[M::worker_pipeline::4456.479*2.97] mapped 75830 sequences
+[M::worker_pipeline::4669.333*2.96] mapped 35539 sequences
+[M::worker_pipeline::5093.953*2.97] mapped 71719 sequences
+[M::worker_pipeline::5451.041*2.97] mapped 86104 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '131380a4-9007-423b-aa18-e41a478454d5'. Continue anyway.[0m
+[M::worker_pipeline::5766.179*2.97] mapped 84995 sequences
+[M::worker_pipeline::5996.921*2.97] mapped 60343 sequences
+[M::worker_pipeline::6367.884*2.97] mapped 83862 sequences
+[M::worker_pipeline::6771.096*2.97] mapped 65670 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '7f61f694-7a78-4f75-b232-5a0fe6da9f63'. Continue anyway.[0m
+[M::worker_pipeline::7133.614*2.97] mapped 70175 sequences
+[M::worker_pipeline::7297.161*2.97] mapped 43077 sequences
+[M::worker_pipeline::7628.125*2.97] mapped 83955 sequences
+[M::worker_pipeline::7951.666*2.97] mapped 84741 sequences
+[M::worker_pipeline::8275.646*2.97] mapped 82418 sequences
+[M::worker_pipeline::8442.176*2.97] mapped 32384 sequences
+[M::worker_pipeline::8809.172*2.97] mapped 76971 sequences
+[M::worker_pipeline::9141.801*2.97] mapped 73915 sequences
+[M::worker_pipeline::9517.906*2.97] mapped 76734 sequences
+[M::worker_pipeline::9740.753*2.97] mapped 55145 sequences
+[M::worker_pipeline::10100.944*2.97] mapped 79678 sequences
+[M::worker_pipeline::10423.182*2.97] mapped 78666 sequences
+[M::worker_pipeline::10778.675*2.97] mapped 72109 sequences
+[M::worker_pipeline::11000.478*2.97] mapped 47431 sequences
+[M::worker_pipeline::11357.207*2.97] mapped 84059 sequences
+[M::worker_pipeline::11669.110*2.97] mapped 83935 sequences
+[M::worker_pipeline::12021.531*2.97] mapped 83357 sequences
+[M::worker_pipeline::12191.357*2.97] mapped 45936 sequences
+[M::worker_pipeline::12618.012*2.97] mapped 63432 sequences
+[M::worker_pipeline::12943.984*2.97] mapped 78736 sequences
+[M::worker_pipeline::13265.556*2.97] mapped 84526 sequences
+[M::worker_pipeline::13440.163*2.97] mapped 45069 sequences
+[M::worker_pipeline::13806.121*2.97] mapped 97050 sequences
+[M::worker_pipeline::14129.567*2.97] mapped 107084 sequences
+[M::worker_pipeline::14461.247*2.97] mapped 88324 sequences
+[M::worker_pipeline::14592.918*2.97] mapped 35738 sequences
+[M::worker_pipeline::14968.237*2.97] mapped 74695 sequences
+[M::worker_pipeline::15337.966*2.97] mapped 75572 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '231caaab-91b4-4650-a80a-5b8ee044b570'. Continue anyway.[0m
+[M::worker_pipeline::15678.126*2.97] mapped 80509 sequences
+[M::worker_pipeline::15839.390*2.97] mapped 40570 sequences
+[M::worker_pipeline::16197.857*2.97] mapped 80446 sequences
+[M::worker_pipeline::16515.137*2.97] mapped 79486 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '3c54264f-ff09-4f8f-b0b3-b4c520019b08'. Continue anyway.[0m
+[M::worker_pipeline::16853.913*2.97] mapped 79157 sequences
+[M::worker_pipeline::17027.518*2.97] mapped 50725 sequences
+[M::worker_pipeline::17405.367*2.97] mapped 75300 sequences
+[M::worker_pipeline::17778.232*2.97] mapped 71337 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '392c994f-9dd5-4633-9686-f92ac185aeff'. Continue anyway.[0m
+[M::worker_pipeline::18109.941*2.97] mapped 82064 sequences
+[M::worker_pipeline::18283.138*2.97] mapped 48137 sequences
+[M::worker_pipeline::18629.484*2.97] mapped 83048 sequences
+[M::worker_pipeline::18962.859*2.97] mapped 84546 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to 'f90798db-6020-4f46-b413-74ed9d8b2b44'. Continue anyway.[0m
+[M::worker_pipeline::19334.095*2.97] mapped 77174 sequences
+[M::worker_pipeline::19501.544*2.97] mapped 31173 sequences
+[M::worker_pipeline::19917.913*2.97] mapped 71192 sequences
+[M::worker_pipeline::20230.248*2.97] mapped 83046 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '261e688f-a376-4337-8d57-f278ad5ee4aa'. Continue anyway.[0m
+[M::worker_pipeline::20542.140*2.97] mapped 82590 sequences
+[M::worker_pipeline::20762.403*2.97] mapped 55606 sequences
+[M::worker_pipeline::21117.098*2.97] mapped 80911 sequences
+[M::worker_pipeline::21433.549*2.97] mapped 88819 sequences
+[M::worker_pipeline::21746.535*2.97] mapped 85302 sequences
+[M::worker_pipeline::21883.883*2.97] mapped 30612 sequences
+[M::worker_pipeline::22272.628*2.97] mapped 73939 sequences
+[M::worker_pipeline::22618.604*2.97] mapped 77845 sequences
+[M::worker_pipeline::22940.888*2.97] mapped 84233 sequences
+[M::worker_pipeline::23068.581*2.97] mapped 37684 sequences
+[M::worker_pipeline::23463.832*2.97] mapped 73017 sequences
+[M::worker_pipeline::23784.649*2.97] mapped 89353 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to 'b35dcb62-85db-429e-bb1e-2049806e459a'. Continue anyway.[0m
+[M::worker_pipeline::24111.830*2.97] mapped 86485 sequences
+[M::worker_pipeline::24322.843*2.97] mapped 55277 sequences
+[M::worker_pipeline::24673.745*2.97] mapped 84866 sequences
+[M::worker_pipeline::24992.857*2.97] mapped 78892 sequences
+[M::worker_pipeline::25382.087*2.97] mapped 67119 sequences
+[M::worker_pipeline::25563.415*2.97] mapped 36885 sequences
+[M::worker_pipeline::25903.689*2.97] mapped 86561 sequences
+[M::worker_pipeline::26199.527*2.97] mapped 86724 sequences
+[M::worker_pipeline::26523.872*2.97] mapped 88786 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to 'a56df703-dd87-4e8e-add5-1adc1942e494'. Continue anyway.[0m
+[M::worker_pipeline::26842.100*2.97] mapped 88053 sequences
+[M::worker_pipeline::26898.366*2.97] mapped 19907 sequences
+[M::worker_pipeline::27221.887*2.97] mapped 100865 sequences
+[M::worker_pipeline::27522.374*2.97] mapped 100223 sequences
+[M::worker_pipeline::27886.557*2.97] mapped 90515 sequences
+[M::worker_pipeline::28051.892*2.97] mapped 45120 sequences
+[M::worker_pipeline::28401.792*2.97] mapped 81822 sequences
+[M::worker_pipeline::28774.763*2.97] mapped 75103 sequences
+[M::worker_pipeline::29103.186*2.97] mapped 80712 sequences
+[M::worker_pipeline::29415.749*2.97] mapped 88228 sequences
+[M::worker_pipeline::29633.875*2.97] mapped 58382 sequences
+[M::worker_pipeline::29971.706*2.97] mapped 87882 sequences
+[M::worker_pipeline::30319.183*2.97] mapped 73139 sequences

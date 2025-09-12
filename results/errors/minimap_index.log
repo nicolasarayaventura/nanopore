@@ -1,0 +1,8 @@
+[M::mm_idx_gen::114.516*0.99] collected minimizers
+[M::mm_idx_gen::154.270*0.99] sorted minimizers
+[M::main::159.759*0.99] loaded/built the index for 25 target sequence(s)
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 25
+[M::mm_idx_stat::160.697*0.99] distinct minimizers: 100128857 (38.78% are singletons); average occurrences: 5.526; average spacing: 5.581; total length: 3088286401
+[M::main] Version: 2.30-r1287
+[M::main] CMD: /sc/arion/work/arayan01/project/nanopore/data/minimap2-2.30_x64-linux/minimap2 -d /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.mmi /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.fa
+[M::main] Real time: 160.878 sec; CPU: 159.701 sec; Peak RSS: 11.350 GB
