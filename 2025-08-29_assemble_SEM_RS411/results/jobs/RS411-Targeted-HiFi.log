@@ -1,0 +1,45 @@
+Sender: LSF System <lsfadmin@lc07e58>
+Subject: Job 201590278: <bash -c ";                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/data/2022-09-21_Seq_CW48_10-12/demultiplex.bc1017--bc1017.fastq &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap1.fasta &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap2.fasta;            "> in cluster <chimera> Done
+
+Job <bash -c ";                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/data/2022-09-21_Seq_CW48_10-12/demultiplex.bc1017--bc1017.fastq &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap1.fasta &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap2.fasta;            "> was submitted from host <li04e03> by user <arayan01> in cluster <chimera> at Thu Sep 18 00:09:10 2025
+Job was executed on host(s) <10*lc07e58>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Sep 18 00:09:15 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/work/arayan01/project> was used as the working directory.
+Started at Thu Sep 18 00:09:15 2025
+Terminated at Thu Sep 18 00:15:43 2025
+Results reported at Thu Sep 18 00:15:43 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "
+                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/data/2022-09-21_Seq_CW48_10-12/demultiplex.bc1017--bc1017.fastq &&
+                gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap1.fasta &&
+                gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap2.fasta
+            "
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3646.00 sec.
+    Max Memory :                                 18037 MB
+    Average Memory :                             1887.08 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               381963.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                23
+    Run time :                                   388 sec.
+    Turnaround time :                            393 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/RS411-Targeted-HiFi.err> for stderr output of this job.
+

@@ -1,0 +1,66 @@
+[M::ha_analyze_count] lowest: count[4095] = 0
+[M::ha_ct_shrink::4.716*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_ft_gen::4.716*1.00@16.018GB] ==> filtered out 0 k-mers occurring -5 or more times
+[M::ha_opt_update_cov] updated max_n_chain to 100
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::4.716*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[4095] = 0
+[M::ha_ct_shrink::4.717*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::4.718*1.00] ==> indexed 0 positions, counted 0 distinct minimizer k-mers
+[M::pec::0.000] # bases: 0; # corrected bases: 0
+[M::pec::0.000] # exact o: 0; # non-exact o: 0
+[M::ha_assemble::4.720*1.00@16.018GB] ==> corrected reads for round 1
+[M::ha_assemble] # bases: 0; # corrected bases: 0
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::4.720*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[4095] = 0
+[M::ha_ct_shrink::4.721*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::4.722*1.00] ==> indexed 0 positions, counted 0 distinct minimizer k-mers
+[M::pec::0.000] # bases: 0; # corrected bases: 0
+[M::pec::0.000] # exact o: 0; # non-exact o: 0
+[M::ha_assemble::4.723*1.00@16.018GB] ==> corrected reads for round 2
+[M::ha_assemble] # bases: 0; # corrected bases: 0
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::4.723*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[4095] = 0
+[M::ha_ct_shrink::4.724*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::4.725*1.00] ==> indexed 0 positions, counted 0 distinct minimizer k-mers
+[M::pec::0.000] # bases: 0; # corrected bases: 0
+[M::pec::0.000] # exact o: 0; # non-exact o: 0
+[M::ha_assemble::4.725*1.00@16.018GB] ==> corrected reads for round 3
+[M::ha_assemble] # bases: 0; # corrected bases: 0
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::4.726*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[4095] = 0
+[M::ha_ct_shrink::4.726*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::4.727*1.00] ==> indexed 0 positions, counted 0 distinct minimizer k-mers
+[M::ha_print_ovlp_stat_0] # overlaps: 0
+[M::ha_print_ovlp_stat_0] # strong overlaps: 0
+[M::ha_print_ovlp_stat_0] # weak overlaps: 0
+[M::ha_print_ovlp_stat_0] # exact overlaps: 0
+[M::ha_print_ovlp_stat_0] # inexact overlaps: 0
+[M::ha_print_ovlp_stat_0] # overlaps without large indels: 0
+[M::ha_print_ovlp_stat_0] # reverse overlaps: 0
+[M::ha_print_ovlp_stat_0] # running time: 0.000
+[M::ha_assemble::4.728*1.00@16.018GB] ==> found overlaps for the final round
+[M::ha_opt_update_cov_min] updated max_n_chain to 100
+Writing reads to disk... 
+Reads has been written.
+Writing ma_hit_ts to disk... 
+ma_hit_ts has been written.
+Writing ma_hit_ts to disk... 
+ma_hit_ts has been written.
+bin files have been written.
+bash: line 4: 1619898 Illegal instruction     (core dumped) /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/2024-04-17_human_wgs/1_A01/hifi_reads/m84248_240410_212543_s1.hifi_reads.fastq.gz

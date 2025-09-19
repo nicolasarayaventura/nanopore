@@ -1,0 +1,191 @@
+[M::main::7.272*0.98] loaded/built the index for 25 target sequence(s)
+[M::mm_mapopt_update::8.954*0.99] mid_occ = 704
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 25
+[M::mm_idx_stat::9.884*0.99] distinct minimizers: 100128857 (38.78% are singletons); average occurrences: 5.526; average spacing: 5.581; total length: 3088286401
+[M::worker_pipeline::369.615*2.92] mapped 102615 sequences
+[M::worker_pipeline::745.347*2.96] mapped 93063 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to 'c39861cc-398c-4f06-b737-9114383bff7a'. Continue anyway.[0m
+[M::worker_pipeline::1156.003*2.98] mapped 75880 sequences
+[M::worker_pipeline::1513.167*2.94] mapped 81177 sequences
+[M::worker_pipeline::1896.622*2.95] mapped 75209 sequences
+[M::worker_pipeline::2267.465*2.96] mapped 79010 sequences
+[M::worker_pipeline::2628.426*2.97] mapped 78477 sequences
+[M::worker_pipeline::2983.999*2.96] mapped 72088 sequences
+[M::worker_pipeline::3505.425*2.96] mapped 48556 sequences
+[M::worker_pipeline::3847.823*2.96] mapped 76171 sequences
+[M::worker_pipeline::4219.552*2.97] mapped 73091 sequences
+[M::worker_pipeline::4605.301*2.97] mapped 66334 sequences
+[M::worker_pipeline::4675.824*2.97] mapped 13912 sequences
+[M::worker_pipeline::5059.361*2.97] mapped 78330 sequences
+[M::worker_pipeline::5407.030*2.97] mapped 78684 sequences
+[M::worker_pipeline::5789.173*2.97] mapped 70073 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to 'd0a39abd-1204-4544-8183-7a721f9e242d'. Continue anyway.[0m
+[M::worker_pipeline::6259.084*2.98] mapped 51392 sequences
+[M::worker_pipeline::6291.550*2.97] mapped 7116 sequences
+[M::worker_pipeline::6638.636*2.97] mapped 77708 sequences
+[M::worker_pipeline::6987.304*2.97] mapped 77224 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '00418e97-0772-428a-9445-f5ee7cd994a8'. Continue anyway.[0m
+[M::worker_pipeline::7334.778*2.97] mapped 75360 sequences
+[M::worker_pipeline::7670.988*2.97] mapped 74143 sequences
+[M::worker_pipeline::8026.166*2.97] mapped 78006 sequences
+[M::worker_pipeline::8522.789*2.97] mapped 44990 sequences
+[M::worker_pipeline::8884.804*2.97] mapped 68756 sequences
+[M::worker_pipeline::9235.979*2.97] mapped 70450 sequences
+[M::worker_pipeline::9245.921*2.97] mapped 4007 sequences
+[M::worker_pipeline::9625.173*2.97] mapped 77927 sequences
+[M::worker_pipeline::10015.308*2.97] mapped 70157 sequences
+[M::worker_pipeline::10366.903*2.98] mapped 68363 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '7bf29141-5363-418c-bac3-a2e8b07ccece'. Continue anyway.[0m
+[M::worker_pipeline::10795.756*2.98] mapped 57333 sequences
+[M::worker_pipeline::10830.864*2.98] mapped 13659 sequences
+[M::worker_pipeline::11220.985*2.98] mapped 80456 sequences
+[M::worker_pipeline::11558.421*2.98] mapped 77926 sequences
+[M::worker_pipeline::11935.927*2.98] mapped 67992 sequences
+[M::worker_pipeline::12263.529*2.98] mapped 61849 sequences
+[M::worker_pipeline::12648.803*2.98] mapped 72785 sequences
+[M::worker_pipeline::12997.417*2.98] mapped 72223 sequences
+[M::worker_pipeline::13459.717*2.98] mapped 61229 sequences
+[M::worker_pipeline::13788.138*2.97] mapped 72677 sequences
+[M::worker_pipeline::14130.124*2.97] mapped 79363 sequences
+[M::worker_pipeline::14489.678*2.98] mapped 70813 sequences
+[M::worker_pipeline::14811.905*2.98] mapped 76649 sequences
+[M::worker_pipeline::15193.380*2.97] mapped 70257 sequences
+[M::worker_pipeline::15193.483*2.97] mapped 2515 sequences
+[M::worker_pipeline::15703.614*2.97] mapped 56363 sequences
+[M::worker_pipeline::16048.659*2.97] mapped 72879 sequences
+[M::worker_pipeline::16438.269*2.98] mapped 71894 sequences
+[M::worker_pipeline::16797.786*2.97] mapped 73377 sequences
+[M::worker_pipeline::16797.809*2.97] mapped 291 sequences
+[M::worker_pipeline::17172.884*2.97] mapped 89767 sequences
+[M::worker_pipeline::17526.143*2.98] mapped 85422 sequences
+[M::worker_pipeline::17938.068*2.98] mapped 63587 sequences
+[M::worker_pipeline::18295.398*2.98] mapped 82251 sequences
+[M::worker_pipeline::18319.366*2.98] mapped 11698 sequences
+[M::worker_pipeline::18729.665*2.98] mapped 70658 sequences
+[M::worker_pipeline::19065.084*2.98] mapped 76907 sequences
+[M::worker_pipeline::19490.963*2.98] mapped 58877 sequences
+[M::worker_pipeline::19880.040*2.98] mapped 66086 sequences
+[M::worker_pipeline::19888.805*2.98] mapped 2277 sequences
+[M::worker_pipeline::20237.207*2.98] mapped 77369 sequences
+[M::worker_pipeline::20592.226*2.98] mapped 78406 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '1699ed8b-e955-4ec9-8be3-f726258f8daa'. Continue anyway.[0m
+[M::worker_pipeline::20959.193*2.98] mapped 71600 sequences
+[M::worker_pipeline::21314.815*2.98] mapped 64608 sequences
+[M::worker_pipeline::21722.403*2.98] mapped 69428 sequences
+[M::worker_pipeline::22102.071*2.98] mapped 77065 sequences
+[M::worker_pipeline::22458.673*2.98] mapped 74744 sequences
+[M::worker_pipeline::22789.925*2.98] mapped 59826 sequences
+[M::worker_pipeline::23165.118*2.98] mapped 78942 sequences
+[M::worker_pipeline::23512.830*2.98] mapped 77209 sequences
+[M::worker_pipeline::23891.937*2.98] mapped 68128 sequences
+[M::worker_pipeline::24292.604*2.98] mapped 52546 sequences
+[M::worker_pipeline::24306.253*2.98] mapped 4065 sequences
+[M::worker_pipeline::24676.724*2.98] mapped 79882 sequences
+[M::worker_pipeline::25057.344*2.98] mapped 71984 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '1267e70c-fab6-49cd-baec-a21b4217f8c6'. Continue anyway.[0m
+[M::worker_pipeline::25392.993*2.98] mapped 77302 sequences
+[M::worker_pipeline::25687.363*2.97] mapped 63929 sequences
+[M::worker_pipeline::26033.545*2.97] mapped 77656 sequences
+[M::worker_pipeline::26563.249*2.97] mapped 49581 sequences
+[M::worker_pipeline::26905.261*2.98] mapped 78080 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '44c343b0-2bc5-47fa-92d5-c459a0825226'. Continue anyway.[0m
+[M::worker_pipeline::27270.575*2.98] mapped 76723 sequences
+[M::worker_pipeline::27290.312*2.98] mapped 6546 sequences
+[M::worker_pipeline::27664.594*2.98] mapped 69446 sequences
+[M::worker_pipeline::28002.475*2.98] mapped 73608 sequences
+[M::worker_pipeline::28399.366*2.98] mapped 67274 sequences
+[M::worker_pipeline::28749.074*2.97] mapped 69886 sequences
+[M::worker_pipeline::29150.839*2.97] mapped 78049 sequences
+[M::worker_pipeline::29506.411*2.98] mapped 77967 sequences
+[M::worker_pipeline::29832.235*2.98] mapped 78443 sequences
+[M::worker_pipeline::30155.177*2.97] mapped 67284 sequences
+[M::worker_pipeline::30514.816*2.97] mapped 78787 sequences
+[M::worker_pipeline::30869.454*2.97] mapped 77755 sequences
+[M::worker_pipeline::31329.715*2.97] mapped 52400 sequences
+[M::worker_pipeline::31657.822*2.97] mapped 60947 sequences
+[M::worker_pipeline::32043.489*2.97] mapped 78761 sequences
+[M::worker_pipeline::32367.789*2.97] mapped 75912 sequences
+[M::worker_pipeline::32756.280*2.97] mapped 71470 sequences
+[M::worker_pipeline::32843.367*2.97] mapped 24464 sequences
+[M::worker_pipeline::33245.522*2.97] mapped 89048 sequences
+[M::worker_pipeline::33640.790*2.97] mapped 74580 sequences
+[M::worker_pipeline::33973.383*2.98] mapped 84770 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '1364e741-8118-412b-96de-f8dd33a39bf7'. Continue anyway.[0m
+[M::worker_pipeline::34325.093*2.98] mapped 86188 sequences
+[M::worker_pipeline::34344.790*2.98] mapped 7035 sequences
+[M::worker_pipeline::34797.071*2.98] mapped 67333 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to 'a855bbbe-3a7b-460c-914d-643b84ab3b11'. Continue anyway.[0m
+[M::worker_pipeline::35139.378*2.98] mapped 75698 sequences
+[M::worker_pipeline::35385.677*2.97] mapped 56365 sequences
+[M::worker_pipeline::35798.648*2.97] mapped 66184 sequences
+[M::worker_pipeline::36138.348*2.98] mapped 72243 sequences
+[M::worker_pipeline::36344.334*2.97] mapped 61210 sequences
+[M::worker_pipeline::36756.177*2.97] mapped 71279 sequences
+[M::worker_pipeline::37092.442*2.97] mapped 80966 sequences
+[M::worker_pipeline::37483.049*2.98] mapped 66139 sequences
+[M::worker_pipeline::37517.026*2.97] mapped 7693 sequences
+[M::worker_pipeline::37913.134*2.97] mapped 64869 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '3e1b25c1-10a2-4f42-b45e-431bf7b4e519'. Continue anyway.[0m
+[M::worker_pipeline::38275.249*2.97] mapped 88193 sequences
+[M::worker_pipeline::38502.293*2.97] mapped 43803 sequences
+[M::worker_pipeline::38877.352*2.97] mapped 74132 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to 'd86847ff-fd85-4181-b4f5-1fcd67ed60d7'. Continue anyway.[0m
+[M::worker_pipeline::39245.101*2.97] mapped 68938 sequences
+[M::worker_pipeline::39371.550*2.97] mapped 32444 sequences
+[M::worker_pipeline::39741.177*2.97] mapped 86728 sequences
+[M::worker_pipeline::40120.705*2.97] mapped 69490 sequences
+[M::worker_pipeline::40317.544*2.97] mapped 44956 sequences
+[M::worker_pipeline::40693.409*2.97] mapped 72802 sequences
+[M::worker_pipeline::41082.404*2.97] mapped 84079 sequences
+[M::worker_pipeline::41201.866*2.97] mapped 33371 sequences
+[M::worker_pipeline::41571.296*2.97] mapped 75031 sequences
+[M::worker_pipeline::41929.967*2.97] mapped 74632 sequences
+[M::worker_pipeline::42036.669*2.97] mapped 27461 sequences
+[M::worker_pipeline::42460.674*2.97] mapped 85876 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '42a1c2c8-1b42-43c9-a311-f714c63f74c5'. Continue anyway.[0m
+[M::worker_pipeline::42796.651*2.97] mapped 83861 sequences
+[M::worker_pipeline::42892.403*2.97] mapped 30918 sequences
+[M::worker_pipeline::43308.860*2.97] mapped 69437 sequences
+[M::worker_pipeline::43661.488*2.97] mapped 76008 sequences
+[M::worker_pipeline::43802.262*2.97] mapped 12817 sequences
+[M::worker_pipeline::44179.918*2.97] mapped 77747 sequences
+[M::worker_pipeline::44587.045*2.97] mapped 62741 sequences
+[M::worker_pipeline::44936.809*2.97] mapped 80050 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '6d07f45e-dd83-46dd-a1e8-869bb9f80b80'. Continue anyway.[0m
+[M::worker_pipeline::45288.096*2.97] mapped 80212 sequences
+[M::worker_pipeline::45334.960*2.97] mapped 15231 sequences
+[M::worker_pipeline::45701.726*2.97] mapped 85048 sequences
+[M::worker_pipeline::46048.329*2.97] mapped 77302 sequences
+[M::worker_pipeline::46398.440*2.97] mapped 83619 sequences
+[M::worker_pipeline::46875.289*2.97] mapped 50099 sequences
+[M::worker_pipeline::46936.183*2.97] mapped 13311 sequences
+[M::worker_pipeline::47321.112*2.97] mapped 70877 sequences
+[M::worker_pipeline::47676.465*2.97] mapped 75465 sequences
+[M::worker_pipeline::48012.284*2.97] mapped 82905 sequences
+[M::worker_pipeline::48384.924*2.98] mapped 74358 sequences
+[M::worker_pipeline::48398.010*2.97] mapped 8206 sequences
+[M::worker_pipeline::48773.690*2.97] mapped 74586 sequences
+[M::worker_pipeline::49227.284*2.98] mapped 57712 sequences
+[M::worker_pipeline::49557.888*2.98] mapped 76220 sequences
+[M::worker_pipeline::49892.994*2.98] mapped 79356 sequences
+[M::worker_pipeline::49908.688*2.98] mapped 5077 sequences
+[M::worker_pipeline::50319.615*2.98] mapped 70548 sequences
+[M::worker_pipeline::50699.667*2.98] mapped 65712 sequences
+[M::worker_pipeline::51063.665*2.98] mapped 73424 sequences
+[M::worker_pipeline::51414.060*2.98] mapped 79687 sequences
+[M::worker_pipeline::51513.418*2.98] mapped 9273 sequences
+[M::worker_pipeline::51885.736*2.98] mapped 77223 sequences
+[M::worker_pipeline::52237.620*2.98] mapped 76530 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to '353dc5c4-d923-4d59-9211-c6845b6d0a07'. Continue anyway.[0m
+[M::worker_pipeline::52604.824*2.98] mapped 76114 sequences
+[M::worker_pipeline::52957.630*2.98] mapped 66953 sequences
+[M::worker_pipeline::53328.122*2.98] mapped 80965 sequences
+[M::worker_pipeline::53686.189*2.98] mapped 73827 sequences
+[M::worker_pipeline::54111.961*2.98] mapped 58039 sequences
+[WARNING][1;31m failed to parse the FASTA/FASTQ record next to 'f44fe66a-6cff-421e-bb98-722851e69c85'. Continue anyway.[0m
+[M::worker_pipeline::54475.897*2.98] mapped 72917 sequences
+[M::worker_pipeline::54475.972*2.98] mapped 2509 sequences
+[M::main] Version: 2.30-r1287
+[M::main] CMD: /sc/arion/work/arayan01/project/nanopore/data/minimap2-2.30_x64-linux/minimap2 -ax map-ont /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.mmi /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_0.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_10.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_11.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_12.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_13.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_14.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_15.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_16.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_17.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_18.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_19.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_1.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_20.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_21.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_22.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_23.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_24.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_25.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_26.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_27.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_28.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_29.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_2.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_30.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_31.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_32.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_33.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_34.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_35.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_36.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_37.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_38.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_39.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_3.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_4.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_5.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_6.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_7.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_8.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_9.fastq.gz
+[M::main] Real time: 54476.427 sec; CPU: 162129.456 sec; Peak RSS: 12.794 GB
+[bam_sort_core] merging from 234 files...

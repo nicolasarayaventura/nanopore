@@ -1,0 +1,749 @@
+[M::ha_analyze_count] lowest: count[5] = 12942216
+[M::ha_analyze_count] highest: count[20] = 127527553
+[M::ha_hist_line]     2: ******************************************************************** 86434044
+[M::ha_hist_line]     3: ********** 12902139
+[M::ha_hist_line]     4: ******* 9493482
+[M::ha_hist_line]     5: ********** 12942216
+[M::ha_hist_line]     6: *************** 18852894
+[M::ha_hist_line]     7: ******************** 25645866
+[M::ha_hist_line]     8: ************************* 32302478
+[M::ha_hist_line]     9: ****************************** 38404208
+[M::ha_hist_line]    10: *********************************** 44192838
+[M::ha_hist_line]    11: *************************************** 50243805
+[M::ha_hist_line]    12: ********************************************* 57322405
+[M::ha_hist_line]    13: **************************************************** 66086382
+[M::ha_hist_line]    14: ************************************************************ 76488933
+[M::ha_hist_line]    15: ********************************************************************* 88157407
+[M::ha_hist_line]    16: ****************************************************************************** 100109397
+[M::ha_hist_line]    17: *************************************************************************************** 111074233
+[M::ha_hist_line]    18: ********************************************************************************************** 119926668
+[M::ha_hist_line]    19: ************************************************************************************************** 125533593
+[M::ha_hist_line]    20: **************************************************************************************************** 127527553
+[M::ha_hist_line]    21: ************************************************************************************************** 125407060
+[M::ha_hist_line]    22: ********************************************************************************************** 119618042
+[M::ha_hist_line]    23: *************************************************************************************** 110531883
+[M::ha_hist_line]    24: ****************************************************************************** 99320003
+[M::ha_hist_line]    25: ******************************************************************** 86815035
+[M::ha_hist_line]    26: ********************************************************** 73894081
+[M::ha_hist_line]    27: ************************************************ 61457381
+[M::ha_hist_line]    28: *************************************** 50012739
+[M::ha_hist_line]    29: ******************************* 39862720
+[M::ha_hist_line]    30: ************************ 31144809
+[M::ha_hist_line]    31: ******************* 23945749
+[M::ha_hist_line]    32: ************** 18148879
+[M::ha_hist_line]    33: *********** 13513041
+[M::ha_hist_line]    34: ******** 9985144
+[M::ha_hist_line]    35: ****** 7374524
+[M::ha_hist_line]    36: **** 5449769
+[M::ha_hist_line]    37: *** 4064791
+[M::ha_hist_line]    38: ** 3073974
+[M::ha_hist_line]    39: ** 2415363
+[M::ha_hist_line]    40: ** 1951477
+[M::ha_hist_line]    41: * 1638916
+[M::ha_hist_line]    42: * 1428475
+[M::ha_hist_line]    43: * 1273008
+[M::ha_hist_line]    44: * 1164053
+[M::ha_hist_line]    45: * 1079196
+[M::ha_hist_line]    46: * 1023713
+[M::ha_hist_line]    47: * 964314
+[M::ha_hist_line]    48: * 914725
+[M::ha_hist_line]    49: * 863110
+[M::ha_hist_line]    50: * 815677
+[M::ha_hist_line]    51: * 766190
+[M::ha_hist_line]    52: * 728104
+[M::ha_hist_line]    53: * 684296
+[M::ha_hist_line]    54: * 646218
+[M::ha_hist_line]  rest: *************** 18525975
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_ft_gen] peak_hom: 20; peak_het: -1
+[M::ha_ct_shrink::1025.817*6.90] ==> counted 6587318 distinct minimizer k-mers
+[M::ha_ft_gen::1029.247*6.88@49.303GB] ==> filtered out 6587318 k-mers occurring 100 or more times
+[M::ha_opt_update_cov] updated max_n_chain to 100
+[M::yak_count] collected 52158718 minimizers
+[M::yak_count] collected 53149522 minimizers
+[M::yak_count] collected 56291584 minimizers
+[M::yak_count] collected 54563105 minimizers
+[M::yak_count] collected 52477016 minimizers
+[M::yak_count] collected 54180606 minimizers
+[M::yak_count] collected 55238899 minimizers
+[M::yak_count] collected 52225297 minimizers
+[M::yak_count] collected 52232688 minimizers
+[M::yak_count] collected 53769169 minimizers
+[M::yak_count] collected 53373623 minimizers
+[M::yak_count] collected 54623744 minimizers
+[M::yak_count] collected 53718304 minimizers
+[M::yak_count] collected 52137729 minimizers
+[M::yak_count] collected 51995363 minimizers
+[M::yak_count] collected 53950170 minimizers
+[M::yak_count] collected 50957915 minimizers
+[M::yak_count] collected 54401583 minimizers
+[M::yak_count] collected 52939516 minimizers
+[M::yak_count] collected 51585859 minimizers
+[M::yak_count] collected 51911716 minimizers
+[M::yak_count] collected 44055604 minimizers
+[M::yak_count] collected 54297263 minimizers
+[M::yak_count] collected 36069121 minimizers
+[M::yak_count] collected 35082716 minimizers
+[M::yak_count] collected 41228457 minimizers
+[M::yak_count] collected 35059898 minimizers
+[M::yak_count] collected 31636215 minimizers
+[M::yak_count] collected 34461808 minimizers
+[M::yak_count] collected 31623053 minimizers
+[M::yak_count] collected 31276275 minimizers
+[M::yak_count] collected 31293129 minimizers
+[M::yak_count] collected 30589038 minimizers
+[M::yak_count] collected 55482687 minimizers
+[M::yak_count] collected 55968289 minimizers
+[M::yak_count] collected 54516967 minimizers
+[M::yak_count] collected 54129485 minimizers
+[M::yak_count] collected 56501095 minimizers
+[M::yak_count] collected 52183889 minimizers
+[M::yak_count] collected 53735727 minimizers
+[M::ha_pt_gen::2573.228*4.42] ==> counted 337262833 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 785446
+[M::ha_analyze_count] highest: count[20] = 5098657
+[M::ha_hist_line]     1: ****************************************************************************************************> 244685081
+[M::ha_hist_line]     2: ****************************************************************************************************> 6716739
+[M::ha_hist_line]     3: ****************************** 1554668
+[M::ha_hist_line]     4: **************** 792978
+[M::ha_hist_line]     5: *************** 785446
+[M::ha_hist_line]     6: ******************** 1006190
+[M::ha_hist_line]     7: ************************* 1298105
+[M::ha_hist_line]     8: ******************************* 1584044
+[M::ha_hist_line]     9: ************************************ 1842950
+[M::ha_hist_line]    10: ***************************************** 2083588
+[M::ha_hist_line]    11: ********************************************** 2325574
+[M::ha_hist_line]    12: *************************************************** 2607881
+[M::ha_hist_line]    13: ********************************************************** 2948448
+[M::ha_hist_line]    14: ****************************************************************** 3349127
+[M::ha_hist_line]    15: ************************************************************************** 3792674
+[M::ha_hist_line]    16: *********************************************************************************** 4234690
+[M::ha_hist_line]    17: ******************************************************************************************* 4626900
+[M::ha_hist_line]    18: ************************************************************************************************* 4924351
+[M::ha_hist_line]    19: **************************************************************************************************** 5084258
+[M::ha_hist_line]    20: **************************************************************************************************** 5098657
+[M::ha_hist_line]    21: ************************************************************************************************* 4957542
+[M::ha_hist_line]    22: ******************************************************************************************** 4675909
+[M::ha_hist_line]    23: ************************************************************************************ 4277591
+[M::ha_hist_line]    24: *************************************************************************** 3809676
+[M::ha_hist_line]    25: ***************************************************************** 3300815
+[M::ha_hist_line]    26: ******************************************************* 2791679
+[M::ha_hist_line]    27: ********************************************* 2310229
+[M::ha_hist_line]    28: ************************************* 1870185
+[M::ha_hist_line]    29: ***************************** 1490524
+[M::ha_hist_line]    30: *********************** 1164388
+[M::ha_hist_line]    31: ****************** 898620
+[M::ha_hist_line]    32: ************* 684138
+[M::ha_hist_line]    33: ********** 518463
+[M::ha_hist_line]    34: ******** 390065
+[M::ha_hist_line]    35: ****** 296718
+[M::ha_hist_line]    36: **** 227048
+[M::ha_hist_line]    37: *** 177124
+[M::ha_hist_line]    38: *** 141700
+[M::ha_hist_line]    39: ** 118205
+[M::ha_hist_line]    40: ** 101121
+[M::ha_hist_line]    41: ** 88710
+[M::ha_hist_line]    42: ** 80769
+[M::ha_hist_line]    43: * 74457
+[M::ha_hist_line]    44: * 69911
+[M::ha_hist_line]    45: * 66236
+[M::ha_hist_line]    46: * 63204
+[M::ha_hist_line]    47: * 59578
+[M::ha_hist_line]    48: * 57192
+[M::ha_hist_line]    49: * 54245
+[M::ha_hist_line]    50: * 51957
+[M::ha_hist_line]    51: * 49208
+[M::ha_hist_line]    52: * 47120
+[M::ha_hist_line]    53: * 44146
+[M::ha_hist_line]    54: * 42254
+[M::ha_hist_line]    55: * 39872
+[M::ha_hist_line]    56: * 38077
+[M::ha_hist_line]    57: * 36069
+[M::ha_hist_line]    58: * 34141
+[M::ha_hist_line]    59: * 32252
+[M::ha_hist_line]    60: * 31351
+[M::ha_hist_line]    61: * 29251
+[M::ha_hist_line]    62: * 28122
+[M::ha_hist_line]    63: * 26969
+[M::ha_hist_line]    64: * 25699
+[M::ha_hist_line]  rest: *********** 547954
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_pt_gen] peak_hom: 20; peak_het: -1
+[M::ha_ct_shrink::2574.059*4.42] ==> counted 92577752 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 1937072842 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::2960.778*4.85] ==> indexed 1692387761 positions, counted 92577752 distinct minimizer k-mers
+[M::pec::6894.032] # bases: 71871891339; # corrected bases: 506736689
+[M::pec::48.225] # exact o: 134918383; # non-exact o: 69431690
+[M::ha_assemble::9949.895*8.43@82.238GB] ==> corrected reads for round 1
+[M::ha_assemble] # bases: 71871891339; # corrected bases: 506736689
+[M::yak_count] collected 1926410058 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::10371.909*8.37] ==> counted 189258093 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 453409
+[M::ha_analyze_count] highest: count[22] = 4840707
+[M::ha_hist_line]     1: ****************************************************************************************************> 104567726
+[M::ha_hist_line]     2: ******************** 974663
+[M::ha_hist_line]     3: ****** 278221
+[M::ha_hist_line]     4: ****** 307863
+[M::ha_hist_line]     5: ********* 453409
+[M::ha_hist_line]     6: ************** 668519
+[M::ha_hist_line]     7: ******************* 929944
+[M::ha_hist_line]     8: ************************* 1199318
+[M::ha_hist_line]     9: ****************************** 1442605
+[M::ha_hist_line]    10: ********************************** 1650379
+[M::ha_hist_line]    11: ************************************** 1836080
+[M::ha_hist_line]    12: ****************************************** 2019819
+[M::ha_hist_line]    13: ********************************************** 2229769
+[M::ha_hist_line]    14: **************************************************** 2498574
+[M::ha_hist_line]    15: ********************************************************** 2825724
+[M::ha_hist_line]    16: ****************************************************************** 3216811
+[M::ha_hist_line]    17: *************************************************************************** 3631520
+[M::ha_hist_line]    18: *********************************************************************************** 4028590
+[M::ha_hist_line]    19: ******************************************************************************************* 4391507
+[M::ha_hist_line]    20: ************************************************************************************************ 4663374
+[M::ha_hist_line]    21: **************************************************************************************************** 4829952
+[M::ha_hist_line]    22: **************************************************************************************************** 4840707
+[M::ha_hist_line]    23: ************************************************************************************************** 4726169
+[M::ha_hist_line]    24: ********************************************************************************************* 4487484
+[M::ha_hist_line]    25: ************************************************************************************** 4152964
+[M::ha_hist_line]    26: ***************************************************************************** 3733349
+[M::ha_hist_line]    27: ******************************************************************* 3265083
+[M::ha_hist_line]    28: ********************************************************** 2794338
+[M::ha_hist_line]    29: ************************************************ 2339108
+[M::ha_hist_line]    30: **************************************** 1923562
+[M::ha_hist_line]    31: ******************************** 1553317
+[M::ha_hist_line]    32: ************************** 1236910
+[M::ha_hist_line]    33: ******************** 961712
+[M::ha_hist_line]    34: *************** 740533
+[M::ha_hist_line]    35: ************ 562520
+[M::ha_hist_line]    36: ********* 425624
+[M::ha_hist_line]    37: ******* 323496
+[M::ha_hist_line]    38: ***** 244686
+[M::ha_hist_line]    39: **** 189744
+[M::ha_hist_line]    40: *** 150348
+[M::ha_hist_line]    41: *** 122650
+[M::ha_hist_line]    42: ** 102183
+[M::ha_hist_line]    43: ** 89127
+[M::ha_hist_line]    44: ** 80364
+[M::ha_hist_line]    45: ** 73379
+[M::ha_hist_line]    46: * 68922
+[M::ha_hist_line]    47: * 64764
+[M::ha_hist_line]    48: * 62011
+[M::ha_hist_line]    49: * 59695
+[M::ha_hist_line]    50: * 56768
+[M::ha_hist_line]    51: * 53744
+[M::ha_hist_line]    52: * 51737
+[M::ha_hist_line]    53: * 48748
+[M::ha_hist_line]    54: * 45766
+[M::ha_hist_line]    55: * 43055
+[M::ha_hist_line]    56: * 41032
+[M::ha_hist_line]    57: * 39218
+[M::ha_hist_line]    58: * 36990
+[M::ha_hist_line]    59: * 35353
+[M::ha_hist_line]    60: * 33321
+[M::ha_hist_line]    61: * 31457
+[M::ha_hist_line]    62: * 30589
+[M::ha_hist_line]    63: * 28992
+[M::ha_hist_line]    64: * 28085
+[M::ha_hist_line]    65: * 27097
+[M::ha_hist_line]    66: * 25328
+[M::ha_hist_line]  rest: ************ 581697
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_pt_gen] peak_hom: 22; peak_het: -1
+[M::ha_ct_shrink::10372.330*8.37] ==> counted 84690367 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 1926410058 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::10809.784*8.32] ==> indexed 1821842332 positions, counted 84690367 distinct minimizer k-mers
+[M::pec::5431.077] # bases: 71818129855; # corrected bases: 47885013
+[M::pec::39.023] # exact o: 207047239; # non-exact o: 37576659
+[M::ha_assemble::16316.041*8.87@90.550GB] ==> corrected reads for round 2
+[M::ha_assemble] # bases: 71818129855; # corrected bases: 47885013
+[M::yak_count] collected 1925401946 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::16714.552*8.83] ==> counted 178201241 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 429137
+[M::ha_analyze_count] highest: count[22] = 4836457
+[M::ha_hist_line]     1: ****************************************************************************************************> 93917339
+[M::ha_hist_line]     2: *************** 738932
+[M::ha_hist_line]     3: ***** 222951
+[M::ha_hist_line]     4: ****** 279586
+[M::ha_hist_line]     5: ********* 429137
+[M::ha_hist_line]     6: ************* 636984
+[M::ha_hist_line]     7: ******************* 896691
+[M::ha_hist_line]     8: ************************ 1164394
+[M::ha_hist_line]     9: ***************************** 1405752
+[M::ha_hist_line]    10: ********************************* 1610212
+[M::ha_hist_line]    11: ************************************* 1794070
+[M::ha_hist_line]    12: ***************************************** 1975446
+[M::ha_hist_line]    13: ********************************************* 2182848
+[M::ha_hist_line]    14: *************************************************** 2447191
+[M::ha_hist_line]    15: ********************************************************* 2768558
+[M::ha_hist_line]    16: ***************************************************************** 3156446
+[M::ha_hist_line]    17: ************************************************************************** 3571184
+[M::ha_hist_line]    18: ********************************************************************************** 3973416
+[M::ha_hist_line]    19: ****************************************************************************************** 4343414
+[M::ha_hist_line]    20: ************************************************************************************************ 4624349
+[M::ha_hist_line]    21: *************************************************************************************************** 4805920
+[M::ha_hist_line]    22: **************************************************************************************************** 4836457
+[M::ha_hist_line]    23: ************************************************************************************************** 4731785
+[M::ha_hist_line]    24: ********************************************************************************************* 4517345
+[M::ha_hist_line]    25: *************************************************************************************** 4194752
+[M::ha_hist_line]    26: ****************************************************************************** 3787098
+[M::ha_hist_line]    27: ********************************************************************* 3326196
+[M::ha_hist_line]    28: *********************************************************** 2857419
+[M::ha_hist_line]    29: ************************************************** 2399219
+[M::ha_hist_line]    30: ***************************************** 1979464
+[M::ha_hist_line]    31: ********************************* 1604385
+[M::ha_hist_line]    32: *************************** 1281955
+[M::ha_hist_line]    33: ********************* 1000784
+[M::ha_hist_line]    34: **************** 772542
+[M::ha_hist_line]    35: ************ 586283
+[M::ha_hist_line]    36: ********* 444698
+[M::ha_hist_line]    37: ******* 338006
+[M::ha_hist_line]    38: ***** 255580
+[M::ha_hist_line]    39: **** 197921
+[M::ha_hist_line]    40: *** 155978
+[M::ha_hist_line]    41: *** 126531
+[M::ha_hist_line]    42: ** 104867
+[M::ha_hist_line]    43: ** 90219
+[M::ha_hist_line]    44: ** 81916
+[M::ha_hist_line]    45: ** 74113
+[M::ha_hist_line]    46: * 68919
+[M::ha_hist_line]    47: * 65336
+[M::ha_hist_line]    48: * 62629
+[M::ha_hist_line]    49: * 60081
+[M::ha_hist_line]    50: * 57357
+[M::ha_hist_line]    51: * 54217
+[M::ha_hist_line]    52: * 52326
+[M::ha_hist_line]    53: * 49003
+[M::ha_hist_line]    54: * 46752
+[M::ha_hist_line]    55: * 43518
+[M::ha_hist_line]    56: * 41437
+[M::ha_hist_line]    57: * 39377
+[M::ha_hist_line]    58: * 37461
+[M::ha_hist_line]    59: * 35172
+[M::ha_hist_line]    60: * 33450
+[M::ha_hist_line]    61: * 31873
+[M::ha_hist_line]    62: * 30533
+[M::ha_hist_line]    63: * 29385
+[M::ha_hist_line]    64: * 28202
+[M::ha_hist_line]    65: * 26958
+[M::ha_hist_line]    66: * 25501
+[M::ha_hist_line]    67: * 24559
+[M::ha_hist_line]  rest: ************ 566862
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_pt_gen] peak_hom: 22; peak_het: -1
+[M::ha_ct_shrink::16715.035*8.83] ==> counted 84283902 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 1925401946 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::17137.227*8.79] ==> indexed 1831484607 positions, counted 84283902 distinct minimizer k-mers
+[M::pec::5106.839] # bases: 71819077295; # corrected bases: 16853708
+[M::pec::38.732] # exact o: 226099407; # non-exact o: 23498108
+[M::ha_assemble::22290.077*9.06@98.262GB] ==> corrected reads for round 3
+[M::ha_assemble] # bases: 71819077295; # corrected bases: 16853708
+[M::yak_count] collected 1925123387 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::22700.081*9.02] ==> counted 174834806 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 419764
+[M::ha_analyze_count] highest: count[22] = 4834536
+[M::ha_hist_line]     1: ****************************************************************************************************> 90669147
+[M::ha_hist_line]     2: ************** 682826
+[M::ha_hist_line]     3: **** 207135
+[M::ha_hist_line]     4: ****** 269818
+[M::ha_hist_line]     5: ********* 419764
+[M::ha_hist_line]     6: ************* 626057
+[M::ha_hist_line]     7: ****************** 885449
+[M::ha_hist_line]     8: ************************ 1153161
+[M::ha_hist_line]     9: ***************************** 1393220
+[M::ha_hist_line]    10: ********************************* 1598299
+[M::ha_hist_line]    11: ************************************* 1779737
+[M::ha_hist_line]    12: ***************************************** 1960672
+[M::ha_hist_line]    13: ********************************************* 2167740
+[M::ha_hist_line]    14: ************************************************** 2430620
+[M::ha_hist_line]    15: ********************************************************* 2749718
+[M::ha_hist_line]    16: ***************************************************************** 3137969
+[M::ha_hist_line]    17: ************************************************************************* 3553207
+[M::ha_hist_line]    18: ********************************************************************************** 3956162
+[M::ha_hist_line]    19: ***************************************************************************************** 4326846
+[M::ha_hist_line]    20: *********************************************************************************************** 4611400
+[M::ha_hist_line]    21: *************************************************************************************************** 4796538
+[M::ha_hist_line]    22: **************************************************************************************************** 4834536
+[M::ha_hist_line]    23: ************************************************************************************************** 4737407
+[M::ha_hist_line]    24: ********************************************************************************************** 4524374
+[M::ha_hist_line]    25: *************************************************************************************** 4205568
+[M::ha_hist_line]    26: ******************************************************************************* 3805767
+[M::ha_hist_line]    27: ********************************************************************* 3344353
+[M::ha_hist_line]    28: *********************************************************** 2875452
+[M::ha_hist_line]    29: ************************************************** 2419276
+[M::ha_hist_line]    30: ***************************************** 1996517
+[M::ha_hist_line]    31: ********************************** 1620641
+[M::ha_hist_line]    32: *************************** 1297445
+[M::ha_hist_line]    33: ********************* 1012601
+[M::ha_hist_line]    34: **************** 782618
+[M::ha_hist_line]    35: ************ 594533
+[M::ha_hist_line]    36: ********* 451010
+[M::ha_hist_line]    37: ******* 343058
+[M::ha_hist_line]    38: ***** 259160
+[M::ha_hist_line]    39: **** 200335
+[M::ha_hist_line]    40: *** 158187
+[M::ha_hist_line]    41: *** 127509
+[M::ha_hist_line]    42: ** 105911
+[M::ha_hist_line]    43: ** 90778
+[M::ha_hist_line]    44: ** 82357
+[M::ha_hist_line]    45: ** 74170
+[M::ha_hist_line]    46: * 69282
+[M::ha_hist_line]    47: * 65369
+[M::ha_hist_line]    48: * 62964
+[M::ha_hist_line]    49: * 59877
+[M::ha_hist_line]    50: * 57327
+[M::ha_hist_line]    51: * 54779
+[M::ha_hist_line]    52: * 52420
+[M::ha_hist_line]    53: * 49066
+[M::ha_hist_line]    54: * 46828
+[M::ha_hist_line]    55: * 43690
+[M::ha_hist_line]    56: * 41618
+[M::ha_hist_line]    57: * 39501
+[M::ha_hist_line]    58: * 37481
+[M::ha_hist_line]    59: * 35044
+[M::ha_hist_line]    60: * 33678
+[M::ha_hist_line]    61: * 32055
+[M::ha_hist_line]    62: * 30671
+[M::ha_hist_line]    63: * 29386
+[M::ha_hist_line]    64: * 28030
+[M::ha_hist_line]    65: * 27147
+[M::ha_hist_line]    66: * 25489
+[M::ha_hist_line]    67: * 24434
+[M::ha_hist_line]  rest: ************ 569622
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_pt_gen] peak_hom: 22; peak_het: -1
+[M::ha_ct_shrink::22700.480*9.02] ==> counted 84165659 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 1925123387 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::yak_count] collected 0 minimizers
+[M::ha_pt_gen::23075.749*9.01] ==> indexed 1834454240 positions, counted 84165659 distinct minimizer k-mers
+[M::ha_print_ovlp_stat_0] # overlaps: 245474712
+[M::ha_print_ovlp_stat_0] # strong overlaps: 102691146
+[M::ha_print_ovlp_stat_0] # weak overlaps: 142783566
+[M::ha_print_ovlp_stat_0] # exact overlaps: 222431773
+[M::ha_print_ovlp_stat_0] # inexact overlaps: 23042939
+[M::ha_print_ovlp_stat_0] # overlaps without large indels: 243500958
+[M::ha_print_ovlp_stat_0] # reverse overlaps: 147052968
+[M::ha_print_ovlp_stat_0] # running time: 1163.643
+[M::ha_assemble::24244.166*9.05@102.890GB] ==> found overlaps for the final round
+[M::ha_opt_update_cov_min] updated max_n_chain to 110
+Writing reads to disk... 
+Reads has been written.
+Writing ma_hit_ts to disk... 
+ma_hit_ts has been written.
+Writing ma_hit_ts to disk... 
+ma_hit_ts has been written.
+bin files have been written.
+[M::gen_chemical_arc_rf] # chimeric reads: 1838794
+[M::purge_dups] homozygous read coverage threshold: 21
+[M::purge_dups] purge duplication coverage threshold: 27
+[M::ug_ext_gfa::] # tips::4780
+Writing raw unitig GFA to disk... 
+[M::ug_ext_gfa::] # tips::2
+Writing processed unitig GFA to disk... 
+[M::purge_dups] homozygous read coverage threshold: 21
+[M::purge_dups] purge duplication coverage threshold: 27
+[M::mc_solve:: # edges: 46116]
+[M::mc_solve_core_adv::4.135] ==> Partition
+[M::adjust_utg_by_primary] primary contig coverage range: [17, infinity]
+Writing /sc/arion/scratch/arayan01/projects/nanopore/results/hifiasm_assemblies/SEM.asm.bp.p_ctg.gfa to disk... 
+[M::reduce_hamming_error_adv::0.657] # inserted edges: 2538, # fixed bubbles: 225
+[M::adjust_utg_by_trio] primary contig coverage range: [17, infinity]
+[M::recall_arcs] # transitive arcs::170
+[M::recall_arcs] # new arcs::99126, # old arcs::67362
+[M::clean_trio_untig_graph] # adjusted arcs::0
+[M::adjust_utg_by_trio] primary contig coverage range: [17, infinity]
+[M::recall_arcs] # transitive arcs::190
+[M::recall_arcs] # new arcs::99732, # old arcs::68250
+[M::clean_trio_untig_graph] # adjusted arcs::0
+[M::output_trio_graph_joint] dedup_base::187342629, miss_base::0
+Writing /sc/arion/scratch/arayan01/projects/nanopore/results/hifiasm_assemblies/SEM.asm.bp.hap1.p_ctg.gfa to disk... 
+Writing /sc/arion/scratch/arayan01/projects/nanopore/results/hifiasm_assemblies/SEM.asm.bp.hap2.p_ctg.gfa to disk... 
+Inconsistency threshold for low-quality regions in BED files: 70%
+[M::main] Version: 0.25.0-r726
+[M::main] CMD: /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm --ont -o /sc/arion/scratch/arayan01/projects/nanopore/results/hifiasm_assemblies/SEM.asm -t 10 /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_0.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_10.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_11.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_12.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_13.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_14.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_15.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_16.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_17.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_18.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_19.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_1.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_20.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_21.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_22.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_23.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_24.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_25.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_26.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_27.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_28.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_29.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_2.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_30.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_31.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_32.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_33.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_34.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_35.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_36.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_37.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_38.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_39.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_3.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_4.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_5.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_6.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_7.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_8.fastq.gz /sc/arion/projects/oscarlr/nanopore_data/data/08_26_2025_SEM_Ligation/SEM_2-1/50826_1756_P2S-03054-A_PBE56017_762e1a7b/fastq_pass/PBE56017_pass_762e1a7b_bafe59a6_9.fastq.gz
+[M::main] Real time: 24923.366 sec; CPU: 220397.444 sec; Peak RSS: 106.782 GB
+bash: line 3: gfatools: command not found

@@ -1,0 +1,45 @@
+Sender: LSF System <lsfadmin@lc06e36>
+Subject: Job 201590273: <bash -c ";                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/2024-04-17_human_wgs/1_A01/hifi_reads/m84248_240410_212543_s1.hifi_reads.fastq.gz &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS-hap1.fasta &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS-hap2.fasta;            "> in cluster <chimera> Exited
+
+Job <bash -c ";                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/2024-04-17_human_wgs/1_A01/hifi_reads/m84248_240410_212543_s1.hifi_reads.fastq.gz &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS-hap1.fasta &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS-hap2.fasta;            "> was submitted from host <li04e03> by user <arayan01> in cluster <chimera> at Thu Sep 18 00:09:10 2025
+Job was executed on host(s) <10*lc06e36>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Sep 18 00:09:15 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/work/arayan01/project> was used as the working directory.
+Started at Thu Sep 18 00:09:15 2025
+Terminated at Thu Sep 18 00:09:20 2025
+Results reported at Thu Sep 18 00:09:20 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "
+                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/2024-04-17_human_wgs/1_A01/hifi_reads/m84248_240410_212543_s1.hifi_reads.fastq.gz &&
+                gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS-hap1.fasta &&
+                gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS-hap2.fasta
+            "
+------------------------------------------------------------
+
+Exited with exit code 132.
+
+Resource usage summary:
+
+    CPU time :                                   4.77 sec.
+    Max Memory :                                 15382 MB
+    Average Memory :                             10959.60 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               384618.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   5 sec.
+    Turnaround time :                            10 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/SEM-HiFi-WGS.err> for stderr output of this job.
+

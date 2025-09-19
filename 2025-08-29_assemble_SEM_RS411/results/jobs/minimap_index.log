@@ -1,0 +1,44 @@
+Sender: LSF System <lsfadmin@lh06c18>
+Subject: Job 200738461: <bash -c "/sc/arion/work/arayan01/project/nanopore/data/minimap2-2.30_x64-linux/minimap2 -d /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.mmi /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.fa"> in cluster <chimera> Done
+
+Job <bash -c "/sc/arion/work/arayan01/project/nanopore/data/minimap2-2.30_x64-linux/minimap2 -d /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.mmi /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.fa"> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Tue Sep  9 11:38:08 2025
+Job was executed on host(s) <1*lh06c18>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Sep  9 11:38:14 2025
+                            <1*lh06c14>
+                            <1*lh06c17>
+                            <1*lh06c26>
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/work/arayan01/project/nanopore/results> was used as the working directory.
+Started at Tue Sep  9 11:38:14 2025
+Terminated at Tue Sep  9 11:40:55 2025
+Results reported at Tue Sep  9 11:40:55 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "/sc/arion/work/arayan01/project/nanopore/data/minimap2-2.30_x64-linux/minimap2 -d /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.mmi /sc/arion/scratch/arayan01/projects/personalized_epigenome/data/hg38_rfgen/hg38_filtered.fa"
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   160.49 sec.
+    Max Memory :                                 11619 MB
+    Average Memory :                             7450.67 MB
+    Total Requested Memory :                     64000.00 MB
+    Delta Memory :                               52381.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                7
+    Run time :                                   161 sec.
+    Turnaround time :                            167 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/minimap_index.log> for stderr output of this job.
+

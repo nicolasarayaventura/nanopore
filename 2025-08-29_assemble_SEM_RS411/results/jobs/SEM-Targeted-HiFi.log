@@ -1,0 +1,45 @@
+Sender: LSF System <lsfadmin@lc06e05>
+Subject: Job 201590276: <bash -c ";                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/data/2022-08-29_CW48_7-8/demultiplex.bc1058--bc1058.fastq &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi-hap1.fasta &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi-hap2.fasta;            "> in cluster <chimera> Done
+
+Job <bash -c ";                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/data/2022-08-29_CW48_7-8/demultiplex.bc1058--bc1058.fastq &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi-hap1.fasta &&                 gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi-hap2.fasta;            "> was submitted from host <li04e03> by user <arayan01> in cluster <chimera> at Thu Sep 18 00:09:10 2025
+Job was executed on host(s) <10*lc06e05>, in queue <premium>, as user <arayan01> in cluster <chimera> at Thu Sep 18 00:09:15 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/work/arayan01/project> was used as the working directory.
+Started at Thu Sep 18 00:09:15 2025
+Terminated at Thu Sep 18 00:56:41 2025
+Results reported at Thu Sep 18 00:56:41 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "
+                /sc/arion/work/arayan01/project/nanopore/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads/data/2022-08-29_CW48_7-8/demultiplex.bc1058--bc1058.fastq &&
+                gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm.bp.hap1.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi-hap1.fasta &&
+                gfatools gfa2fa /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi.asm.bp.hap2.p_ctg.gfa > /sc/arion/scratch/arayan01/projects/nanopore/results/run_hifiasm/SEM-Targeted-HiFi/SEM-Targeted-HiFi-hap2.fasta
+            "
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26269.00 sec.
+    Max Memory :                                 19264 MB
+    Average Memory :                             5918.25 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               380736.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                28
+    Run time :                                   2846 sec.
+    Turnaround time :                            2851 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/SEM-Targeted-HiFi.err> for stderr output of this job.
+

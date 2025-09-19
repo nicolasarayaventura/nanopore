@@ -1,0 +1,190 @@
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 201336582: <bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt"> in cluster <chimera> Done
+
+Job <bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt"> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Tue Sep 16 14:29:09 2025
+Job was executed on host(s) <10*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Sep 16 14:29:15 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/nanopore/results/alignments> was used as the working directory.
+Started at Tue Sep 16 14:29:15 2025
+Terminated at Tue Sep 16 14:29:25 2025
+Results reported at Tue Sep 16 14:29:25 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt"
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.26 sec.
+    Max Memory :                                 3 MB
+    Average Memory :                             2.57 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               399997.00 MB
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   10 sec.
+    Turnaround time :                            16 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/RS4-11_cov.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 201336587: <bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt"> in cluster <chimera> Done
+
+Job <bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt"> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Tue Sep 16 14:30:24 2025
+Job was executed on host(s) <10*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Sep 16 14:30:25 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/nanopore/results/alignments> was used as the working directory.
+Started at Tue Sep 16 14:30:25 2025
+Terminated at Tue Sep 16 14:30:41 2025
+Results reported at Tue Sep 16 14:30:41 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt"
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.04 sec.
+    Max Memory :                                 78 MB
+    Average Memory :                             33.90 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               399922.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   16 sec.
+    Turnaround time :                            17 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/RS4-11_cov.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 201336591: <bash -c ';                 # Run bedcov;                 bedcov_out=$(samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam);                  # Add region names, compute region length and mean coverage;                 echo -e 'Region\tChrom\tStart\tEnd\tRegionLength\tTotalBases\tMeanCoverage' > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt;                 i=0;                 while read -r chrom start end total; do;                     region_name=${regions[i]};                     length=$((end-start));                     mean=$(awk -v t=$total -v l=$length 'BEGIN{printf "%.2f", t/l}');                     echo -e "$region_name\t$chrom\t$start\t$end\t$length\t$total\t$mean" >> /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt;                     ((i++));                 done <<< "$bedcov_out";             '> in cluster <chimera> Exited
+
+Job <bash -c ';                 # Run bedcov;                 bedcov_out=$(samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam);                  # Add region names, compute region length and mean coverage;                 echo -e 'Region\tChrom\tStart\tEnd\tRegionLength\tTotalBases\tMeanCoverage' > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt;                 i=0;                 while read -r chrom start end total; do;                     region_name=${regions[i]};                     length=$((end-start));                     mean=$(awk -v t=$total -v l=$length 'BEGIN{printf "%.2f", t/l}');                     echo -e "$region_name\t$chrom\t$start\t$end\t$length\t$total\t$mean" >> /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt;                     ((i++));                 done <<< "$bedcov_out";             '> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Tue Sep 16 14:32:26 2025
+Job was executed on host(s) <10*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Sep 16 14:32:30 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/nanopore/results/alignments> was used as the working directory.
+Started at Tue Sep 16 14:32:30 2025
+Terminated at Tue Sep 16 14:32:44 2025
+Results reported at Tue Sep 16 14:32:44 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c '
+                 # Run bedcov
+                 bedcov_out=$(samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam)
+
+                 # Add region names, compute region length and mean coverage
+                 echo -e 'Region\tChrom\tStart\tEnd\tRegionLength\tTotalBases\tMeanCoverage' > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt
+                 i=0
+                 while read -r chrom start end total; do
+                     region_name=${regions[i]}
+                     length=$((end-start))
+                     mean=$(awk -v t=$total -v l=$length 'BEGIN{printf "%.2f", t/l}')
+                     echo -e "$region_name\t$chrom\t$start\t$end\t$length\t$total\t$mean" >> /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt
+                     ((i++))
+                 done <<< "$bedcov_out"
+             '
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   5.01 sec.
+    Max Memory :                                 77 MB
+    Average Memory :                             30.11 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               399923.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   13 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/RS4-11_cov.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@lh06c04>
+Subject: Job 201336594: <bash -c ';                 regions=("IGH" "IGL" "IGK");                 bedcov_out=$(samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam);                 echo -e "Region\tChrom\tStart\tEnd\tRegionLength\tTotalBases\tMeanCoverage" > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt;                 i=0;                 while read -r chrom start end total; do;                     region_name=${regions[i]};                     length=$((end-start));                     mean=$(awk -v t=$total -v l=$length 'BEGIN{printf "%.2f", t/l}');                     echo -e "${region_name}\t${chrom}\t${start}\t${end}\t${length}\t${total}\t${mean}" >> /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt;                     ((i++));                 done <<< "$bedcov_out";             '> in cluster <chimera> Exited
+
+Job <bash -c ';                 regions=("IGH" "IGL" "IGK");                 bedcov_out=$(samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam);                 echo -e "Region\tChrom\tStart\tEnd\tRegionLength\tTotalBases\tMeanCoverage" > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt;                 i=0;                 while read -r chrom start end total; do;                     region_name=${regions[i]};                     length=$((end-start));                     mean=$(awk -v t=$total -v l=$length 'BEGIN{printf "%.2f", t/l}');                     echo -e "${region_name}\t${chrom}\t${start}\t${end}\t${length}\t${total}\t${mean}" >> /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt;                     ((i++));                 done <<< "$bedcov_out";             '> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Tue Sep 16 14:33:17 2025
+Job was executed on host(s) <10*lh06c04>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Sep 16 14:33:19 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/nanopore/results/alignments> was used as the working directory.
+Started at Tue Sep 16 14:33:19 2025
+Terminated at Tue Sep 16 14:33:34 2025
+Results reported at Tue Sep 16 14:33:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c '
+                 regions=("IGH" "IGL" "IGK")
+                 bedcov_out=$(samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam)
+                 echo -e "Region\tChrom\tStart\tEnd\tRegionLength\tTotalBases\tMeanCoverage" > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt
+                 i=0
+                 while read -r chrom start end total; do
+                     region_name=${regions[i]}
+                     length=$((end-start))
+                     mean=$(awk -v t=$total -v l=$length 'BEGIN{printf "%.2f", t/l}')
+                     echo -e "${region_name}\t${chrom}\t${start}\t${end}\t${length}\t${total}\t${mean}" >> /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/RS4-11_coverage.txt
+                     ((i++))
+                 done <<< "$bedcov_out"
+             '
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   5.01 sec.
+    Max Memory :                                 77 MB
+    Average Memory :                             32.11 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               399923.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   14 sec.
+    Turnaround time :                            17 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/RS4-11_cov.err> for stderr output of this job.
+

@@ -1,0 +1,41 @@
+Sender: LSF System <lsfadmin@lc06e22>
+Subject: Job 201335162: <bash -c "samtools stats /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam chr22:21957025-23125032 > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats/RS4-11_IGL_stats.txt"> in cluster <chimera> Done
+
+Job <bash -c "samtools stats /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam chr22:21957025-23125032 > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats/RS4-11_IGL_stats.txt"> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Tue Sep 16 13:43:04 2025
+Job was executed on host(s) <10*lc06e22>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Sep 16 13:43:08 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects> was used as the working directory.
+Started at Tue Sep 16 13:43:08 2025
+Terminated at Tue Sep 16 13:43:12 2025
+Results reported at Tue Sep 16 13:43:12 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "samtools stats /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/RS4-11.bam chr22:21957025-23125032 > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats/RS4-11_IGL_stats.txt"
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.43 sec.
+    Max Memory :                                 3009 MB
+    Average Memory :                             2269.25 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               396991.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   4 sec.
+    Turnaround time :                            8 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/RS4-11_IGL.err> for stderr output of this job.
+

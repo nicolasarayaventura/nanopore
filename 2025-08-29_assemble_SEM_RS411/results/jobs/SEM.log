@@ -1,0 +1,85 @@
+Sender: LSF System <lsfadmin@lc06e26>
+Subject: Job 201335212: <bash -c ";                 samtools stats /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/SEM_stats.txt &&                  samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/SEM_coverage.txt;             "> in cluster <chimera> Done
+
+Job <bash -c ";                 samtools stats /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/SEM_stats.txt &&                  samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/SEM_coverage.txt;             "> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Tue Sep 16 13:48:21 2025
+Job was executed on host(s) <10*lc06e26>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Sep 16 13:48:23 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects> was used as the working directory.
+Started at Tue Sep 16 13:48:23 2025
+Terminated at Tue Sep 16 14:17:22 2025
+Results reported at Tue Sep 16 14:17:22 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "
+                 samtools stats /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/SEM_stats.txt &&
+                 samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/stats_coverage/SEM_coverage.txt
+             "
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1734.82 sec.
+    Max Memory :                                 5681 MB
+    Average Memory :                             5484.28 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               394319.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1739 sec.
+    Turnaround time :                            1741 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/SEM.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@lc06e06>
+Subject: Job 201336522: <bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/SEM_coverage.txt"> in cluster <chimera> Done
+
+Job <bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/SEM_coverage.txt"> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Tue Sep 16 14:26:56 2025
+Job was executed on host(s) <10*lc06e06>, in queue <premium>, as user <arayan01> in cluster <chimera> at Tue Sep 16 14:26:58 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/nanopore/results/alignments> was used as the working directory.
+Started at Tue Sep 16 14:26:58 2025
+Terminated at Tue Sep 16 14:26:59 2025
+Results reported at Tue Sep 16 14:26:59 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c "samtools bedcov /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/IG_regions.bed /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/SEM.bam > /sc/arion/scratch/arayan01/projects/nanopore/results/alignments/coverage/SEM_coverage.txt"
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.08 sec.
+    Max Memory :                                 45 MB
+    Average Memory :                             45.00 MB
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               399955.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </sc/arion/work/arayan01/project/nanopore/results/errors/SEM.err> for stderr output of this job.
+
