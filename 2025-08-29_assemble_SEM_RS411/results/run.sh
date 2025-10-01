@@ -4,6 +4,7 @@ set -x -e
 minimap2="/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411data/minimap2-2.30_x64-linux/minimap2"
 meryl="/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/meryl/build/bin/meryl"
 hifiasm="/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/hifiasm/hifiasm"
+merqury="/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/merqury/merqury.sh"
 ######Directorys
 work="/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/results"
 scratch="/sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results"
@@ -121,7 +122,7 @@ function bam_coverage_ont {
 }
 function assemble_hifiasm_ont {
     sample_file="${work}/sample_list.txt"
-    out_dir="${scratch}/hifiasm_assemblies"
+    out_dir="${scratch}/ont_hifiasm_assemblies"
     mkdir -p "$out_dir"
 
     while read -r sample type fastqs; do
@@ -151,10 +152,10 @@ function assemble_hifiasm_ont {
 #########################################
 #########################################
 
-hifi_files="/sc/arion/scratch/arayan01/projects/nanopore/data/Pacbio/hifi-reads"
-SEM_WGS_INPUT="${hifi_files}/2024-04-17_human_wgs/1_A01/hifi_reads/m84248_240410_212543_s1.hifi_reads.fastq.gz"
-SEM_HiFi_INPUT="${hifi_files}/data/2022-08-29_CW48_7-8/demultiplex.bc1058--bc1058.fastq"
-RS4_HiFi_INPUT="${hifi_files}/data/2022-09-21_Seq_CW48_10-12/demultiplex.bc1017--bc1017.fastq"
+hifi_files="/sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/data/Pacbio/hifi-reads"
+SEM_WGS_INPUT="${hifi_files}/SEM-HiFi-WGS.fastq.gz"
+SEM_HiFi_INPUT="${hifi_files}/SEM-Targeted-HiFi.fastq.gz"
+RS4_HiFi_INPUT="${hifi_files}/RS411-Targeted-HiFi.fastq.gz"
 
 hifi_data=(
     "${SEM_WGS_INPUT}"
@@ -183,8 +184,8 @@ declare -A input_for=(
 )
 
 function run_hifiasm_pacbio {
-    mkdir -p "${scratch}/run_hifiasm"
-    hifiasm_dir="${scratch}/run_hifiasm"
+    mkdir -p "${scratch}/pacbio_hifiasm"
+    hifiasm_dir="${scratch}/pacbio_hifiasm"
 
     # Loop through each assembly
     for asm in "${assemblies[@]}"; do
@@ -202,8 +203,8 @@ function run_hifiasm_pacbio {
 
         # Submit each assembly as a separate job to LSF
         bsub -P  acc_oscarlr -q premium -n 10 -W 72:00 -R "rusage[mem=40000] span[hosts=1]" \
-            -o "${jobs}/${asm}.log" \
-            -eo "${errmsg}/${asm}.err" \
+            -o "${jobs}/${asm}_pacbio_hifiasm.log" \
+            -eo "${errmsg}/${asm}_pacbio_hifiasm.err" \
             bash -c "
                 ${hifiasm} -o ${outdir}/${asm}.asm -t 10 ${inputs} &&
                 gfatools gfa2fa ${outdir}/${asm}.asm.bp.hap1.p_ctg.gfa > ${outdir}/${output_name}-hap1.fasta &&
@@ -211,6 +212,114 @@ function run_hifiasm_pacbio {
             "
     done
 }
+
+# Function to build meryl k-mer database from PacBio reads
+function run_meryl_pacbio {
+    for asm in "${assemblies[@]}"; do
+        if [[ "$asm" == "SEM-combined" ]]; then
+            continue
+        fi
+
+        # Assume input_for[$asm] contains both hap1 and hap2 fastq paths
+        for hap in 1 2; do
+            input_reads="${input_for[${asm}_hap${hap}]}"  # e.g., input_for["SEM-hap1"]
+            outdir="${scratch}/pacbio_meryl_results/${asm}_hap${hap}"
+            mkdir -p "$outdir/logs"
+
+            # Remove old k-mer DB if exists
+            if [[ -d "${outdir}/reads.meryl" ]]; then
+                echo "Removing old meryl DB for $asm hap${hap}"
+                rm -rf "${outdir}/reads.meryl"
+            fi
+
+            bsub -P acc_oscarlr -q premium -n 10 -W 24:00 -R "rusage[mem=40000] span[hosts=1]" \
+                -o "${outdir}/logs/${asm}_hap${hap}_meryl.log" \
+                -eo "${outdir}/logs/${asm}_hap${hap}_meryl.err" \
+                bash -c "
+                    export MERQURY=/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/merqury
+                    export PATH=\$MERQURY/build/bin:\$PATH
+
+                    ${meryl} count k=21 output ${outdir}/reads.meryl ${input_reads}
+                "
+        done
+    done
+}
+
+# Function to run Merqury on PacBio hap1/hap2 assemblies (diploid mode)
+function run_merqury_pacbio {
+    local meryl_base="$scratch/pacbio_meryl_results"   # where reads.meryl lives
+    local asm_base="$scratch/pacbio_hifiasm"           # where hap1/hap2 FASTAs live
+    local out_base="$scratch/pacbio_merc_results"     # separate folder for Merqury outputs
+
+    mkdir -p "$out_base"
+
+    for asm in "${assemblies[@]}"; do
+        if [[ "$asm" == "SEM-combined" ]]; then
+            continue
+        fi
+
+        hap1_fasta="${asm_base}/${asm}/${asm}-hap1.fasta"
+        hap2_fasta="${asm_base}/${asm}/${asm}-hap2.fasta"
+        read_meryl="${meryl_base}/${asm}_hap1/reads.meryl"   # use hap1 reads.meryl
+        outdir="${out_base}/${asm}"
+
+        # Remove old Merqury output if it exists
+        if [[ -d "${outdir}" ]]; then
+            echo "Removing old Merqury output for $asm"
+            rm -rf "${outdir:?}"
+        fi
+
+        # Create output + logs folder
+        mkdir -p "${outdir}/logs"
+
+        bsub -P acc_oscarlr -q premium -n 10 -W 24:00 -R "rusage[mem=40000] span[hosts=1]" \
+            -o "${outdir}/logs/${asm}_merqury.log" \
+            -eo "${outdir}/logs/${asm}_merqury.err" \
+            bash -c "
+                export MERQURY=/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/merqury
+                export PATH=\$MERQURY/build/bin:\$PATH
+
+                # Run Merqury in diploid mode: reads.meryl + hap1 + hap2 FASTAs
+                \$MERQURY/merqury.sh ${read_meryl} ${hap1_fasta} ${hap2_fasta} ${outdir}
+            "
+    done
+}
+
+
+
+
+
+
+function summarize_merqury_results {
+    merqury_dir="${scratch}/merqury_results"
+    output_table="${scratch}/merqury_summary.tsv"
+
+    # Header
+    echo -e "Assembly\tHaplotype\tQV\tCompleteness" > "$output_table"
+
+    # Loop through assemblies
+    for asm_dir in "$merqury_dir"/*; do
+        asm_name=$(basename "$asm_dir")
+        
+        # Skip if not a directory
+        [[ -d "$asm_dir" ]] || continue
+        
+        merqury_subdir="${asm_dir}/${asm_name}_merqury"
+        
+        for hap in hap1 hap2; do
+            qv_file="${merqury_subdir}/${hap}.qv"
+            if [[ -f "$qv_file" ]]; then
+                qv=$(grep "QV" "$qv_file" | awk '{print $2}')
+                comp=$(grep "completeness" "$qv_file" | awk '{print $2}')
+                echo -e "${asm_name}\t${hap}\t${qv}\t${comp}" >> "$output_table"
+            fi
+        done
+    done
+
+    echo "Merqury summary table written to $output_table"
+}
+
+
 
 
 
@@ -224,8 +333,11 @@ function run_hifiasm_pacbio {
 #align_minimap2
 #bam_stats_ont
 #bam_coverage_ont
-assemble_hifiasm_ont
+#assemble_hifiasm_ont
 #########################################
 #PACBIO DATA#############################
 #########################################
 #run_hifiasm_pacbio 
+#run_meryl_pacbio
+run_merqury_pacbio
+#summarize_merqury_results
