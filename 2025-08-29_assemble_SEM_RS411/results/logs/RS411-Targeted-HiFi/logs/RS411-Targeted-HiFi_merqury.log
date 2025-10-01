@@ -1,0 +1,57 @@
+Sender: LSF System <lsfadmin@lc06e12>
+Subject: Job 203589151: <bash -c ';                export MERQURY=/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/merqury;                export PATH=$MERQURY/build/bin:$PATH;                 # Run Merqury in diploid mode: reads.meryl + hap1 + hap2 FASTAs;                $MERQURY/merqury.sh /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_meryl_results/RS411-Targeted-HiFi_hap1/reads.meryl /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap1.fasta /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap2.fasta /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_merc_results/RS411-Targeted-HiFi;            '> in cluster <chimera> Exited
+
+Job <bash -c ';                export MERQURY=/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/merqury;                export PATH=$MERQURY/build/bin:$PATH;                 # Run Merqury in diploid mode: reads.meryl + hap1 + hap2 FASTAs;                $MERQURY/merqury.sh /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_meryl_results/RS411-Targeted-HiFi_hap1/reads.meryl /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap1.fasta /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap2.fasta /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_merc_results/RS411-Targeted-HiFi;            '> was submitted from host <li04e02> by user <arayan01> in cluster <chimera> at Wed Oct  1 15:44:38 2025
+Job was executed on host(s) <10*lc06e12>, in queue <premium>, as user <arayan01> in cluster <chimera> at Wed Oct  1 15:44:43 2025
+</hpc/users/arayan01> was used as the home directory.
+</sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_hifiasm> was used as the working directory.
+Started at Wed Oct  1 15:44:43 2025
+Terminated at Wed Oct  1 15:44:43 2025
+Results reported at Wed Oct  1 15:44:43 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+bash -c '
+                export MERQURY=/sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/merqury
+                export PATH=$MERQURY/build/bin:$PATH
+
+                # Run Merqury in diploid mode: reads.meryl + hap1 + hap2 FASTAs
+                $MERQURY/merqury.sh /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_meryl_results/RS411-Targeted-HiFi_hap1/reads.meryl /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap1.fasta /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_hifiasm/RS411-Targeted-HiFi/RS411-Targeted-HiFi-hap2.fasta /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_merc_results/RS411-Targeted-HiFi
+            '
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   0.03 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     400000.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   0 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+read: reads.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: RS411-Targeted-HiFi-hap1.fasta
+asm2: RS411-Targeted-HiFi-hap2.fasta
+out : /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_merc_results/RS411-Targeted-HiFi
+
+/sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_merc_results/RS411-Targeted-HiFi already exists. Provide a different name. (Are we missing the <out>?)
+
+
+PS:
+
+Read file </sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_merc_results/RS411-Targeted-HiFi/logs/RS411-Targeted-HiFi_merqury.err> for stderr output of this job.
+
