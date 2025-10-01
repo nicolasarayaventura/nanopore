@@ -1,0 +1,8 @@
+Reads has been loaded.
+Loading ma_hit_ts from disk... 
+ma_hit_ts has been read.
+Loading ma_hit_ts from disk... 
+ma_hit_ts has been read.
+[M::ha_assemble::0.018*0.10] ==> loaded corrected reads and overlaps from disk
+[M::ha_opt_update_cov_min] updated max_n_chain to 100
+bash: line 6: 3142535 Illegal instruction     (core dumped) /sc/arion/work/arayan01/project/nanopore/2025-08-29_assemble_SEM_RS411/data/hifiasm/hifiasm -o /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/results/pacbio_hifiasm/SEM-HiFi-WGS/SEM-HiFi-WGS.asm -t 10 /sc/arion/scratch/arayan01/projects/nanopore/2025-08-29_assemble_SEM_RS411/data/Pacbio/hifi-reads/data/2024-04-17_human_wgs/1_A01/hifi_reads/m84248_240410_212543_s1.hifi_reads.fastq.gz
